@@ -1,0 +1,42 @@
+header {
+  nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $navBg;
+    img {
+      width: 7%;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      width: 92%;
+      margin-right: 0.6rem;
+      a {
+        text-decoration: none;
+        font-size: 25px; //non funziona!!!!
+        color: $nav;
+      }
+    }
+  }
+  .hero {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    div {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      background-color: $heroBg;
+
+      p {
+        width: 30%;
+      }
+    }
+    button {
+      background-color: $btn;
+    }
+  }
+}

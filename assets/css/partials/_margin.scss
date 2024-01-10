@@ -1,0 +1,19 @@
+body {
+  margin-top: 0;
+}
+header {
+  nav {
+    margin-bottom: 1rem; //non funziona
+  }
+  .hero {
+    margin: 0 1rem;
+    padding: 0.2em 0;
+    background-color: $heroBg;
+    div {
+      margin: 1rem 0;
+    }
+  }
+}
+main {
+  margin: 1.5rem;
+}
