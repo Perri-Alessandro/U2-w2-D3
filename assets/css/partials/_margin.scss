@@ -8,9 +8,13 @@ header {
   .hero {
     margin: 0 1rem;
     padding: 0.2em 0;
-    background-color: $heroBg;
+
     div {
       margin: 1rem 0;
+    }
+    button {
+      margin: 1rem;
+      padding: 1rem;
     }
   }
 }

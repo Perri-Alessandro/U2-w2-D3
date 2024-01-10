@@ -144,6 +144,10 @@ header .hero {
 header .hero div {
   margin: 1rem 0;
 }
+header .hero button {
+  margin: 1rem;
+  padding: 1rem;
+}
 
 main {
   margin: 1.5rem;
@@ -187,6 +191,12 @@ header .hero div p {
 }
 header .hero button {
   background-color: rgb(100, 200, 20);
+  border-radius: 20%;
+  border-style: none;
+  transition: background-color 0.3s ease;
+}
+header .hero button:hover {
+  background-color: rgb(150, 20, 200);
 }
 
 main {

@@ -37,6 +37,12 @@ header {
     }
     button {
       background-color: $btn;
+      border-radius: 20%;
+      border-style: none;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: $btnHover;
+      }
     }
   }
 }
